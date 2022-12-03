@@ -17,7 +17,8 @@ class MainActivity : AppCompatActivity() {
             Todo("Prank my boss",true),
             Todo("Eat some curry",false),
             Todo("Ask my crush out",true),
-            Todo("Take a shower",true)
+            Todo("Take a shower",true),
+            Todo("Brush my teeth",true)
         )
 
         val adapter = TodoAdapter(todoList)
